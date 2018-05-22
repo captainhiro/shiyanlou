@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+str = input("Enter a string: ")
+b = set(str)
+for c in b:
+    print(c, str.count(c))
